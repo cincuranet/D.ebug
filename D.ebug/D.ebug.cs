@@ -2,7 +2,7 @@
 
 public static class D
 {
-	[DebuggerStepThrough]
+	[DebuggerHidden]
 	public static void ebug()
 	{
 		if (Debugger.IsAttached)
