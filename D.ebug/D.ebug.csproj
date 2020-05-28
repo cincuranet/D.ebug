@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>netstandard1.0;netstandard2.0;net40</TargetFrameworks>
-		<Version>1.0.1.0</Version>
+		<Version>1.0.2.0</Version>
 		<LangVersion>latest</LangVersion>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
@@ -10,6 +10,7 @@
 		<PackageVersion>$(Version)</PackageVersion>
 		<Authors>Jiří Činčura</Authors>
 		<Product>D.ebug</Product>
+		<Description>D.ebug</Description>
 		<Copyright>Copyright (c) Jiri {x2} Cincura</Copyright>
 		<PackageProjectUrl>https://github.com/cincuranet/D.ebug</PackageProjectUrl>
 		<PackageTags>debugger, debug, break, launch, breakpoint</PackageTags>
