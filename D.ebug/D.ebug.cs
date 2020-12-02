@@ -10,4 +10,11 @@ public static class D
 		else
 			Debugger.Launch();
 	}
+
+	[DebuggerHidden]
+	public static void ebug(bool condition)
+	{
+		if(condition)
+			ebug();
+	}
 }
